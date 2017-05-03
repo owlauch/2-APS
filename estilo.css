@@ -1,6 +1,7 @@
 header#cabecalho{
-	margin: -15px 0px 0px 0px;
-	background-color: yellow;
+	margin: -15px 0px 20px 0px;
+	box-shadow: 10px 10px 5px #f7b42e;
+	border-radius: 15px;
 	width: 100%;
 	height: 170px;
 }
@@ -18,10 +19,11 @@ header#cabecalho li{
 	margin: 80px 5px 0px 5px;
 	padding: 15px;
 	display: inline-block;
-	background-color: white;
+	background-color: #f7b42e;
 }
 header#cabecalho li:hover{
-	background-color: pink;
+	border: 1px solid #f7b42e;
+	background-color: white;
 }
 
 header#cabecalho h3{
@@ -32,38 +34,53 @@ header#cabecalho h3{
 	right: 100px;
 	top: 50px;
 }
-header#cabecalho h3:hover{
-	background-color: green;
-}
-header#aside{
-	position: relative;
-	background-color: yellow;
-	margin: -20px 0px 0px  0px;
+
+aside header#aside{
+	box-shadow: 10px 10px 5px #f7b42e;
+	margin: 0px 0px 0px  0px;
+	padding: 15px;
+	border-radius: 15px;
 	width: 20%;
 	height: 500px;
 }
 header#aside li{
 	text-align: center;
  	list-style-type: none;
- 	background-color: white;
+ 	background-color: #f7b42e;
  	margin: 5px 10px 5px 0px;
  	padding: 15px;
 }
 header#aside h1{
 	text-align: center;
-
+}
+header#aside li:hover{
+	border: 1px solid #f7b42e;
+	background-color: white;
 }
 footer{
-	margin-top: -21px;
+	margin-top: 30px;
 	width: 100%;
 	height: 100%;
-	background-color: yellow;
+	background-color: #f7b42e;
 }
 footer h1{
 	text-align: center;
 }
+footer section {
+	display: inline-block;
+	width: 30%;
+	text-align: justify;
+
+}
+nav.contato li{
+	
+	display: inline-block;
+}
+nav.contato ul{
+
+	text-align: center;
+}
 article{
-	background-color: red;
 	width: 77%;
 	height: 475px;
 	position: absolute;
@@ -73,9 +90,12 @@ article{
 }
 article li {
 	display: inline-block;
+	border-radius: 15px;
 	width: 200px;
 	height:200px;
+	border: 1px solid #f7b42e;
 	background-color: white;
+	box-shadow: 10px 10px 5px #f7b42e;
 	margin: 5px 5px 5px 0px;
 	text-align: center;
 }
