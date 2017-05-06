@@ -1,41 +1,60 @@
+* p{
+	margin:0;
+	font-size: 13px;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+*h1{
+	font-family: 'Gloria Hallelujah', cursive;
+}
 header#cabecalho{
+	font-family: 'Gloria Hallelujah', cursive;
 	margin: -15px 0px 20px 0px;
 	box-shadow: 10px 10px 5px #f7b42e;
 	border-radius: 15px;
 	width: 100%;
 	height: 170px;
 }
+#ger{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 80%;
+	text-align: center;
+}
+
+.gerenciador h3{
+	width: 100px;
+	margin: 10px 0px 0px 0px;
+	border-radius: 15px;
+	background-color: #f7b42e;
+}
+.gerenciador li{
+	list-style-type: none;
+}
+
 header#cabecalho img{
 	margin: 20px 0px 0px 50px;
 	position: absolute;
 }
-header#cabecalho ul{
+.icones ul{
 	position: absolute;
 	width: 100%; 
 	list-style-type: none;
 	text-align: center;
 }
-header#cabecalho li{
-	margin: 80px 5px 0px 5px;
+.icones li{
+	margin: 80px 3px 0px 3px;
 	padding: 15px;
+	border-radius: 15px;
 	display: inline-block;
 	background-color: #f7b42e;
 }
-header#cabecalho li:hover{
+.icones li:hover,.gerenciador h3:hover{
 	border: 1px solid #f7b42e;
 	background-color: white;
 }
 
-header#cabecalho h3{
-	border: 1px solid black;
-	position: absolute;
-	padding:  0PX 20px 0px 20px;
-	display: inline-block;
-	right: 100px;
-	top: 50px;
-}
-
 aside header#aside{
+	font-family: 'Gloria Hallelujah', cursive;
 	box-shadow: 10px 10px 5px #f7b42e;
 	margin: 0px 0px 0px  0px;
 	padding: 15px;
@@ -49,6 +68,7 @@ header#aside li{
  	background-color: #f7b42e;
  	margin: 5px 10px 5px 0px;
  	padding: 15px;
+ 	border-radius: 15px;
 }
 header#aside h1{
 	text-align: center;
@@ -66,20 +86,32 @@ footer{
 footer h1{
 	text-align: center;
 }
-footer section {
-	display: inline-block;
-	width: 30%;
+
+nav.footer-links{
 	text-align: justify;
-
-}
-nav.contato li{
-	
+	width: 30%;
+	margin: 20px 0px 20px 0px;
 	display: inline-block;
+	float: left;
 }
-nav.contato ul{
+#footerdiv{
 
+	width: 100%;
+	height: 300px;
+}
+nav.footer-links li{
+	list-style-type: none;
+}
+nav.contato{
+	display: block;
+	width: 100%;
 	text-align: center;
 }
+nav.contato li{
+	float:initial;
+	display:inline-block;
+}
+
 article{
 	width: 77%;
 	height: 475px;
@@ -91,11 +123,22 @@ article{
 article li {
 	display: inline-block;
 	border-radius: 15px;
-	width: 200px;
-	height:200px;
+	padding: 2px;
+	width: 250px;
+	height:250px;
 	border: 1px solid #f7b42e;
 	background-color: white;
 	box-shadow: 10px 10px 5px #f7b42e;
 	margin: 5px 5px 5px 0px;
+	text-align: center;
+}
+#centro{
+	display: block;
+	height: 650px;
+}
+article li img{
+	margin-top: 20px;
+}
+#localizacao{
 	text-align: center;
 }
