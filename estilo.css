@@ -37,7 +37,7 @@ header#cabecalho img{
 }
 .icones ul{
 	position: absolute;
-	width: 100%; 
+	width: 100%;
 	list-style-type: none;
 	text-align: center;
 }
@@ -64,11 +64,11 @@ aside header#aside{
 }
 header#aside li{
 	text-align: center;
- 	list-style-type: none;
- 	background-color: #f7b42e;
- 	margin: 5px 10px 5px 0px;
- 	padding: 15px;
- 	border-radius: 15px;
+	list-style-type: none;
+	background-color: #f7b42e;
+	margin: 5px 10px 5px 0px;
+	padding: 15px;
+	border-radius: 15px;
 }
 header#aside h1{
 	text-align: center;
@@ -80,36 +80,27 @@ header#aside li:hover{
 footer{
 	margin-top: 30px;
 	width: 100%;
-	height: 100%;
+	height: 250px;
 	background-color: #f7b42e;
 }
 footer h1{
 	text-align: center;
 }
 
-nav.footer-links{
+nav.footer-links1,nav.footer-links2,nav.footer-links3{
 	text-align: justify;
 	width: 30%;
 	margin: 20px 0px 20px 0px;
-	display: inline-block;
 	float: left;
-}
-#footerdiv{
-
-	width: 100%;
-	height: 300px;
-}
-nav.footer-links li{
-	list-style-type: none;
-}
-nav.contato{
-	display: block;
-	width: 100%;
 	text-align: center;
+
 }
-nav.contato li{
-	float:initial;
-	display:inline-block;
+nav.footer-links3 li{
+	display: inline-block;
+
+}
+nav.footer-links1 li,nav.footer-links2 li,nav.footer-links3 li{
+	list-style-type: none;
 }
 
 article{
@@ -141,4 +132,41 @@ article li img{
 }
 #localizacao{
 	text-align: center;
+}
+/*-------------Estilo Cadastro------------------*/
+#tabelacadastro {
+	width: 100%;
+	height: 500px;
+	margin-left: 15%;
+}
+
+#tabelacadastro li{
+	display: inline-block;
+}
+#tabelalogin,#tabelacad,#tabelameio{
+	font-size: 13px;
+	border: 1px solid #f7b42e;
+	background-color: white;
+	box-shadow: 10px 10px 5px #f7b42e;
+	border-radius: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 2px;
+	text-align: center;
+}
+#tabelameio{
+	position: relative;
+	top:-200px;
+	width: 50px;
+	height: 50px;
+}
+#tabelalogin{
+	position: relative;
+	top: -150px;
+	width: 300px;
+	height: 300px;
+}
+#tabelacad{
+	width: 300px;
+	height: 450px;
 }
