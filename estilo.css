@@ -6,7 +6,10 @@
 *h1{
 	font-family: 'Gloria Hallelujah', cursive;
 }
-header#cabecalho{
+
+/*__________________________________________*/
+/*INICIO DO CABEÇALHO*/
+#cabecalho{
 	font-family: 'Gloria Hallelujah', cursive;
 	margin: -15px 0px 20px 0px;
 	box-shadow: 10px 10px 5px #f7b42e;
@@ -14,26 +17,25 @@ header#cabecalho{
 	width: 100%;
 	height: 170px;
 }
-#ger{
-	position: absolute;
-	margin-top: 10px;
-	margin-left: 80%;
-	text-align: center;
-}
-
-.gerenciador h3{
-	width: 100px;
-	margin: 10px 0px 0px 0px;
-	border-radius: 15px;
-	background-color: #f7b42e;
-}
-.gerenciador li{
-	list-style-type: none;
-}
-
-header#cabecalho img{
+#cabecalho img{
 	margin: 20px 0px 0px 50px;
 	position: absolute;
+}
+.ger ul{
+	position: absolute;
+	margin-left: 80%;
+	padding: 2px;
+	width: 150px;
+	height: 120px;
+}
+.ger li{
+	margin: 3px 3px 0px 3px;
+	padding: 15px;
+	border-radius: 15px;
+	display: block;
+	background-color: #f7b42e;
+	text-align: center;
+	padding: 10px;
 }
 .icones ul{
 	position: absolute;
@@ -47,22 +49,26 @@ header#cabecalho img{
 	border-radius: 15px;
 	display: inline-block;
 	background-color: #f7b42e;
+	text-align: center;
+	padding: 10px;
 }
-.icones li:hover,.gerenciador h3:hover{
+#cabecalho li:hover{
 	border: 1px solid #f7b42e;
 	background-color: white;
 }
-
-aside header#aside{
+/*FIM DO CABEÇALHO*/
+/*---------------------------*/
+/*INICIO DO MENU LATERAL*/
+.menu_esquerdo{
 	font-family: 'Gloria Hallelujah', cursive;
 	box-shadow: 10px 10px 5px #f7b42e;
 	margin: 0px 0px 0px  0px;
 	padding: 15px;
 	border-radius: 15px;
 	width: 20%;
-	height: 500px;
+	height: 550px;
 }
-header#aside li{
+.menu_esquerdo li{
 	text-align: center;
 	list-style-type: none;
 	background-color: #f7b42e;
@@ -70,13 +76,28 @@ header#aside li{
 	padding: 15px;
 	border-radius: 15px;
 }
-header#aside h1{
+.menu_esquerdo h1{
 	text-align: center;
 }
-header#aside li:hover{
+.menu_esquerdo li:hover{
 	border: 1px solid #f7b42e;
 	background-color: white;
 }
+#centro{
+	height: 640px;
+}
+.header_article {
+ position: relative;
+ width: 70%;
+ margin-left: 5%;
+ margin-top: -47px;
+ background-color: #f7b42e;
+ text-align: center;
+ border-radius: 15px;
+}
+/*FIM DO MENU LATERAL*/
+/*---------------------------*/
+/*INICIO RODAPE*/
 footer{
 	margin-top: 30px;
 	width: 100%;
@@ -105,17 +126,16 @@ nav.footer-links1 li,nav.footer-links2 li,nav.footer-links3 li{
 
 article{
 	width: 77%;
-	height: 475px;
-	position: absolute;
 	display: inline-block;
+	position: absolute;
 	margin-left: 21%;
-	margin-top: -485px;
+	margin-top: -543px;
 }
 article li {
 	display: inline-block;
 	border-radius: 15px;
 	padding: 2px;
-	width: 250px;
+	width: 225px;
 	height:250px;
 	border: 1px solid #f7b42e;
 	background-color: white;
@@ -123,16 +143,19 @@ article li {
 	margin: 5px 5px 5px 0px;
 	text-align: center;
 }
-#centro{
-	display: block;
-	height: 650px;
-}
+
 article li img{
 	margin-top: 20px;
 }
+/*------------------------*/
+/*bread-crumbies*/
+/*------------------------*/
 #localizacao{
+
+	top: 500px;
 	text-align: center;
 }
+/*fim bread-crumbies*/
 /*-------------Estilo Cadastro------------------*/
 #tabelacadastro {
 	width: 100%;

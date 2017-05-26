@@ -5,41 +5,36 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 	<style>	@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');</style>
+	<script src="cabecalho.js" charset="utf-8"></script>
+	<script src="rodape.js" charset="utf-8"></script>
 </head>
 <body>
+	<!-- INICIO DO CABEÇALHO DO SITE  -->
+	<!-- _________________________________________________________________________ -->
 	<header id="cabecalho">
-		<img src="imagens/jake.gif" width="250px"  height="125px">
-		<img src="imagens/hypegif.gif" width="75px" height="75px" />
-		<foot>
-			<nav class="icones">
-				<ul>
-					<li>Assador</li>
-					<li>Barman</li>
-					<li>Caixa Termica</li>
-					<li>KitChop</li>
-					<li>Dj</li>
-					<li>SOM</li>
-				</ul>
-			</nav>
-			<div id="ger">
-				<nav class="gerenciador">
-					<ul>
-						<li><a href="Cadastro.html"><h3>Login</h3></a></li>
-						<li><a><h3>Carrinho</h3></a></li>
-					</ul>
-				</nav>
-			</div>
-		</foot>
-	</header>
-	<div id="centro">
-		<hr>
-		<div id="localizacao">
-			<a href="index.html">Home</a>
+		<div class="teste">
+			<script type="text/javascript">
+			esccabecalho();
+			</script>
 		</div>
+	</header>
+	<!-- FIM DO cabecalho -->
+	<!-- _________________________________________________________________________ -->
+	<!-- INICIO DO BREAD-BREAD CRUMBS -->
+	<!-- _________________________________________________________________________ -->
+	<div id="localizacao">
 		<hr>
-		<aside>
-			<header id="aside">
-				<h1>Nossos Serviços</h1>
+		<a href="index.html">Home</a>
+		<hr>
+	</div>
+	<!-- _________________________________________________________________________ -->
+	<!-- FIM DO BREAD-BREAD CRUMBS -->
+	<!-- _________________________________________________________________________ -->
+	<!-- INICIO DO ASIDE -->
+	<!-- _________________________________________________________________________ -->
+	<div id="centro">
+		<aside class="menu_esquerdo">
+				<h1>Info Serviços</h1>
 				<ul>
 					<li>Assador Profisa</li>
 					<li>Barman Profisa</li>
@@ -48,9 +43,15 @@
 					<li>Dj Profisa</li>
 					<li>SOM Profisa</li>
 				</ul>
-			</header>
 		</aside>
-		<article>
+		<!-- FIM DO ASIDE -->
+		<!-- ________________________________ -->
+		<!--Elementos Visuais Centrais-->
+		<!-- ________________________________ -->
+		<article class="conteudo_central">
+				<div class="header_article">
+				<h1>OS MELHORES</h1>
+			</div>
 			<ul>
 				<li><img src="imagens/assador.jpg" width="150px" height="150px" />
 					<div id="poder_ass">
@@ -116,39 +117,14 @@
 		</article>
 	</div>
 	<hr>
+	<!-- FIM DO ELEMENTO -->
+	<!-- ____________________________________________________________________________________ -->
+	<!-- INICIODO RODAPÉ -->
 	<footer class="rodape">
-		<div id="footerdiv">
-			<nav class="footer-links1">
-				<h1>Categorias</h1>
-				<ul>
-					<li><a href="#">Assador</a></li>
-					<li><a href="#">Barman</a></li>
-					<li><a href="#">Caixa Termica</a></li>
-					<li><a href="#">Kitchop</a></li>
-					<li><a href="#">Som</a></li>
-					<li><a href="#">dj</a></li>
-				</ul>
-			</nav>
-			<nav class="footer-links2">
-				<h1>Institucional</h1>
-				<ul>
-					<li><a href="#">Quem Somos</a></li>
-					<li><a href="#">Objetivos</a></li>
-					<li><a href="#">Termos de Uso</a></li>
-					<li><a href="#">Ajuda</a></li>
-					<li><a href="#">Fale Conosco</a></li>
-					<li><a href="referencia.pdf">Sites de referência</a></li>
-				</ul>
-			</nav>
-			<nav class="footer-links3">
-				<h1>Desenvolvedores: <a href="#"><br>Olivir && João</a> </h1>
-				<ul>
-					<li><a href="#"><img src="imagens/Facebook.png" width="50px"  height="50px" /></a></li>
-					<li><a href="#"><img src="imagens/twitter.png" width="65px"  height="65px" /></a></li>
-					<li><a href="#"><img src="imagens/Github.png" width="40px"  height="40px"/></a></li>
-				</ul>
-				<p>Hype © Direitos reservados. 2017</p>
-			</nav>
+		<div class="footerdiv">
+			<script type="text/javascript">
+				escrodape();
+			</script>
 		</div>
 	</footer>
 </body>

@@ -5,124 +5,93 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 	<style>	@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');</style>
+	<script src="cabecalho.js" charset="utf-8"></script>
+	<script src="rodape.js" charset="utf-8"></script>
 </head>
 <body>
+
+	<!-- INICIO DO CABEÇALHO DO SITE  -->
+	<!-- _________________________________________________________________________ -->
 	<header id="cabecalho">
-		<img src="imagens/jake.gif" width="250px"  height="125px">
-		<img src="imagens/hypegif.gif" width="75px" height="75px" />
-		<foot>
-			<nav class="icones">
-				<ul>
-					<li>Assador</li>
-					<li>Barman</li>
-					<li>Caixa Termica</li>
-					<li>KitChop</li>
-					<li>Dj</li>
-					<li>SOM</li>
-				</ul>
-			</nav>
-			<div id="ger">
-				<nav class="gerenciador">
-					<ul>
-						<li><a href="Cadastro.html"><h3>Login</h3></a></li>
-						<li><a><h3>Carrinho</h3></a></li>
-					</ul>
-				</nav>
-			</div>
-		</foot>
+		<div class="teste">
+			<script type="text/javascript">
+			esccabecalho();
+			</script>
+		</div>
 	</header>
-	<div id="centro">
+	<!-- FIM DO cabecalho -->
+	<!-- _________________________________________________________________________ -->
+	<!-- INICIO DO BREAD-BREAD CRUMBS -->
+	<!-- _________________________________________________________________________ -->
+	<div id="localizacao">
 		<hr>
-		<div id="localizacao">
-			<a href="index.html">Home</a>
+		<a href="index.html">Home</a>
+		-
+		<a href="Cadastro.html">Cadastro</a>
+		<hr>
+	</div>
+	<!-- _________________________________________________________________________ -->
+	<!-- FIM DO BREAD-BREAD CRUMBS -->
+	<!-- _________________________________________________________________________ -->
+	<!-- INICIO DO ASIDE -->
+	<!-- _________________________________________________________________________ -->
+	<div id="tabelacadastro">
+		<ul>
+			<li>
+				<div id="tabelalogin">
+					<h1>Faça seu Login</h1>
+					<form>
+						Seu e-mail: <br>
+						<input type="text" name="emaillogin" required> <br>
+						Sua senha: <br>
+						<input type="password" name="senhalogin" required> <br><br>
+						<input type="submit" value="Entrar com meu email">
+						<br><br>
+					</form>
+				</div >
+			</li>
+			<li>
+				<div id="tabelameio">
+					<h2>ou</h2>
+				</div>
+			</li>
+			<li>
+				<div id="tabelacad">
+					<h1>Cadastre-se</h1>
+					<form>
+						Seu nome: <br>
+						<input type="text" name="primeironomecad" required> <br>
+						Seu sobrenome: <br>
+						<input type="text" name="sobrenomecad" required> <br>
+						Seu e-mail: <br>
+						<input type="text" name="emailcad" placeholder="Ex.: ricardo@gmail.com" required> <br>
+						Seu CEP: <br>
+						<input type="number" name="cepcad" placeholder="xxxxx-xxx" required> <br>
+						Seu telefone de contato: <br>
+						<input type="number" name="telcad" placeholder="(xx) x xxxx-xxxx" required> <br>
+						Tipo de cadastro:<br>
+						<input list="tipo" required><datalist id="tipo">
+							<option value="Cliente">Cliente</option>
+							<option value="Servidor">Servidor</option>
+						</datalist><br>
+						Crie uma senha: <br>
+						<input type="password" name="senhacad" required> <br>
+						Confirme sua senha: <br>
+						<input type="password" name="confirmasenhacad" required><br><br>
+						<input type="submit" value="Me cadastrar">
+					</form>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<hr>
+	<!-- INICIODO RODAPÉ -->
+	<footer class="rodape">
+		<div class="footerdiv">
+			<script type="text/javascript">
+			escrodape();
+			</script>
 		</div>
-		<hr>
-		<!--Tela Central-->
-		<div id="tabelacadastro">
-			<ul>
-				<li>
-					<div id="tabelalogin">
-						<h1>Faça seu Login</h1>
-						<form>
-							Seu e-mail: <br>
-							<input type="text" name="emaillogin" required> <br>
-							Sua senha: <br>
-							<input type="password" name="senhalogin" required> <br><br>
-							<input type="submit" value="Entrar com meu email">
-							<br><br>
-						</form>
-					</div >
-				</li>
-				<li>
-					<div id="tabelameio">
-						<h2>ou</h2>
-					</div>
-				</li>
-				<li>
-					<div id="tabelacad">
-						<h1>Cadastre-se</h1>
-						<form>
-							Seu nome: <br>
-							<input type="text" name="primeironomecad" required> <br>
-							Seu sobrenome: <br>
-							<input type="text" name="sobrenomecad" required> <br>
-							Seu e-mail: <br>
-							<input type="text" name="emailcad" placeholder="Ex.: ricardo@gmail.com" required> <br>
-							Seu CEP: <br>
-							<input type="number" name="cepcad" placeholder="xxxxx-xxx" required> <br>
-							Seu telefone de contato: <br>
-							<input type="number" name="telcad" placeholder="(xx) x xxxx-xxxx" required> <br>
-							Tipo de cadastro:<br>
-							<input list="tipo" required><datalist id="tipo">
-								<option value="Cliente">Cliente</option>
-								<option value="Servidor">Servidor</option>
-							</datalist><br>
-							Crie uma senha: <br>
-							<input type="password" name="senhacad" required> <br>
-							Confirme sua senha: <br>
-							<input type="password" name="confirmasenhacad" required><br><br>
-							<input type="submit" value="Me cadastrar">
-						</form>
-					</div>
-				</li>
-			</ul>
-		</div>
-		<hr>
-		<!-- Rodapé do site-->
-		<footer class="rodape">
-			<div id="footerdiv">
-				<nav class="footer-links1">
-					<h1>Categorias</h1>
-					<ul>
-						<li><a href="#">Assador</a></li>
-						<li><a href="#">Barman</a></li>
-						<li><a href="#">Caixa Termica</a></li>
-						<li><a href="#">Kitchop</a></li>
-						<li><a href="#">Som</a></li>
-						<li><a href="#">dj</a></li>
-					</ul>
-				</nav>
-				<nav class="footer-links2">
-					<h1>Institucional</h1>
-					<ul>
-						<li><a href="#">Quem Somos</a></li>
-						<li><a href="#">Objetivos</a></li>
-						<li><a href="#">Termos de Uso</a></li>
-						<li><a href="#">Ajuda</a></li>
-						<li><a href="#">Fale Conosco</a></li>
-						<li><a href="referencia.pdf">Sites de referência</a></li>
-					</ul>
-				</nav>
-				<nav class="footer-links3">
-					<h1>Desenvolvedores: <a href="#"><br>Olivir && João</a> </h1>
-					<ul>
-						<li><a href="#"><img src="imagens/Facebook.png" width="50px"  height="50px" /></a></li>
-						<li><a href="#"><img src="imagens/twitter.png" width="65px"  height="65px" /></a></li>
-						<li><a href="#"><img src="imagens/Github.png" width="40px"  height="40px"/></a></li>
-					</ul>
-					<p>Hype © Direitos reservados. 2017</p>
-				</nav>
-			</div>
-		</footer>
-	</body>
-	</html>
+	</footer>
+</body>
+</html>
