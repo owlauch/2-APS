@@ -3,24 +3,24 @@
 <head>
 	<title>HYPEWEB</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="estilo\estilo.css">
 	<style>	@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');</style>
-	<script src="cabecalho.js" charset="utf-8"></script>
-	<script src="rodape.js" charset="utf-8"></script>
-	<script src="assadores.js" charset="utf-8"></script>
-	<script src="Barmans.js" charset="utf-8"></script>
-	<script src="cxt.js" charset="utf-8"></script>
-	<script src="ks.js" charset="utf-8"></script>
-	<script src="djs.js" charset="utf-8"></script>
-	<script src="sons.js" charset="utf-8"></script>
-	<script src="centroInd.js" charset="utf-8"></script>
-	<script src="menuesq.js" charset="utf-8"></script>
-	<script src="infAssador.js" charset="utf-8"></script>
-	<script src="infbarman.js" charset="utf-8"></script>
-	<script src="infcxt.js" charset="utf-8"></script>
-	<script src="infdj.js" charset="utf-8"></script>
-	<script src="infson.js" charset="utf-8"></script>
-	<script src="infks.js" charset="utf-8"></script>
+	<script src="ElementosSite\cabecalho.js" charset="utf-8"></script>
+	<script src="ElementosSite\rodape.js" charset="utf-8"></script>
+	<script src="ElementosSite\centroInd.js" charset="utf-8"></script>
+	<script src="ElementosSite\menuesq.js" charset="utf-8"></script>
+	<script src="produtos\assadores.js" charset="utf-8"></script>
+	<script src="produtos\Barmans.js" charset="utf-8"></script>
+	<script src="produtos\cxt.js" charset="utf-8"></script>
+	<script src="produtos\ks.js" charset="utf-8"></script>
+	<script src="produtos\djs.js" charset="utf-8"></script>
+	<script src="produtos\sons.js" charset="utf-8"></script>
+	<script src="informações\infAssador.js" charset="utf-8"></script>
+	<script src="informações\infbarman.js" charset="utf-8"></script>
+	<script src="informações\infcxt.js" charset="utf-8"></script>
+	<script src="informações\infdj.js" charset="utf-8"></script>
+	<script src="informações\infson.js" charset="utf-8"></script>
+	<script src="informações\infks.js" charset="utf-8"></script>
 </head>
 <body>
 	<!-- INICIO DO CABEÇALHO DO SITE  -->
@@ -28,7 +28,7 @@
 	<header id="cabecalho">
 		<div class="teste">
 			<script type="text/javascript">
-			esccabecalho();
+			esccabecalho(1);
 			</script>
 		</div>
 	</header>
@@ -46,21 +46,23 @@
 	<!-- _________________________________________________________________________ -->
 	<!-- INICIO DO ASIDE MENU DE INFORMAÇÕES -->
 	<!-- _________________________________________________________________________ -->
-	<div id="centro">
-		<aside class="menu_esquerdo">
-			<script type="text/javascript">
+	<div class="meio">
+		<div id="centro">
+			<aside class="menu_esquerdo">
+				<script type="text/javascript">
 				esmenues();
-			</script>
-		</aside>
-		<!-- FIM DO ASIDE -->
-		<!-- ________________________________ -->
-		<!--Elementos Visuais Centrais-->
-		<!-- ________________________________ -->
-		<article class="conteudo_central">
-			 <script type="text/javascript">
-			 	escentroid();
-			 </script>
-		</article>
+				</script>
+			</aside>
+			<!-- FIM DO ASIDE -->
+			<!-- ________________________________ -->
+			<!--Elementos Visuais Centrais-->
+			<!-- ________________________________ -->
+			<article class="conteudo_central">
+				<script type="text/javascript">
+				escentroid();
+				</script>
+			</article>
+		</div>
 	</div>
 	<hr>
 	<!-- FIM DO ELEMENTO -->
@@ -69,7 +71,7 @@
 	<footer class="rodape">
 		<div class="footerdiv">
 			<script type="text/javascript">
-				escrodape();
+			escrodape(1);
 			</script>
 		</div>
 	</footer>
