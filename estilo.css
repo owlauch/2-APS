@@ -59,6 +59,10 @@
 /*FIM DO CABEÇALHO*/
 /*---------------------------*/
 /*INICIO DO MENU LATERAL*/
+.inf{
+	margin-left: 10%;
+	width: 75%;
+}
 .menu_esquerdo{
 	font-family: 'Gloria Hallelujah', cursive;
 	box-shadow: 10px 10px 5px #f7b42e;
