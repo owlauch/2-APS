@@ -9,15 +9,23 @@
 	<script src="../ElementosSite\rodape.js" charset="utf-8"></script>
 	<script src="../ElementosSite\centroInd.js" charset="utf-8"></script>
 	<script src="../ElementosSite\menuesq.js" charset="utf-8"></script>
+	<script src="../ElementosSite\login.js" charset="utf-8"></script>
+	<script src="../ElementosSite\cadastro.js" charset="utf-8"></script>
 	<script src="../produtos\assadores.js" charset="utf-8"></script>
 	<script src="../produtos\Barmans.js" charset="utf-8"></script>
 	<script src="../produtos\cxt.js" charset="utf-8"></script>
 	<script src="../produtos\ks.js" charset="utf-8"></script>
 	<script src="../produtos\djs.js" charset="utf-8"></script>
 	<script src="../produtos\sons.js" charset="utf-8"></script>
+	<script src="../informações\infAssador.js" charset="utf-8"></script>
+	<script src="../informações\infbarman.js" charset="utf-8"></script>
+	<script src="../informações\infcxt.js" charset="utf-8"></script>
+	<script src="../informações\infdj.js" charset="utf-8"></script>
+	<script src="../informações\infson.js" charset="utf-8"></script>
+	<script src="../informações\infks.js" charset="utf-8"></script>
+	<script src="../ElementosSite\pickCadastro.js" charset="utf-8"></script>
 </head>
 <body>
-
 	<!-- INICIO DO CABEÇALHO DO SITE  -->
 	<!-- _________________________________________________________________________ -->
 	<header id="cabecalho">
@@ -35,64 +43,24 @@
 		<hr>
 		<a href="../index.html">Home</a>
 		-
-		<a href="Cadastro.html">Cadastro</a>
+		<a href="Cadastro.html">Login</a>
 		<hr>
 	</div>
 	<!-- _________________________________________________________________________ -->
 	<!-- FIM DO BREAD-BREAD CRUMBS -->
 	<!-- _________________________________________________________________________ -->
-	<!-- INICIO DO ASIDE -->
-	<!-- _________________________________________________________________________ -->
-	<div id="tabelacadastro">
-		<ul>
-			<li>
-				<div id="tabelalogin">
-					<h1>Faça seu Login</h1>
-					<form>
-						Seu e-mail: <br>
-						<input type="text" name="emaillogin" required> <br>
-						Sua senha: <br>
-						<input type="password" name="senhalogin" required> <br><br>
-						<input type="submit" value="Entrar com meu email">
-						<br><br>
-					</form>
-				</div >
-			</li>
-			<li>
-				<div id="tabelameio">
-					<h2>ou</h2>
-				</div>
-			</li>
-			<li>
-				<div id="tabelacad">
-					<h1>Cadastre-se</h1>
-					<form>
-						Seu nome: <br>
-						<input type="text" name="primeironomecad" required> <br>
-						Seu sobrenome: <br>
-						<input type="text" name="sobrenomecad" required> <br>
-						Seu e-mail: <br>
-						<input type="text" name="emailcad" placeholder="Ex.: ricardo@gmail.com" required> <br>
-						Seu CEP: <br>
-						<input type="number" name="cepcad" placeholder="xxxxx-xxx" required> <br>
-						Seu telefone de contato: <br>
-						<input type="number" name="telcad" placeholder="(xx) x xxxx-xxxx" required> <br>
-						Tipo de cadastro:<br>
-						<input list="tipo" required><datalist id="tipo">
-							<option value="Cliente">Cliente</option>
-							<option value="Servidor">Servidor</option>
-						</datalist><br>
-						Crie uma senha: <br>
-						<input type="password" name="senhacad" required> <br>
-						Confirme sua senha: <br>
-						<input type="password" name="confirmasenhacad" required><br><br>
-						<input type="submit" value="Me cadastrar">
-					</form>
-				</div>
-			</li>
-		</ul>
+		<!-- ________________________________ -->
+		<!--Elementos Visuais Centrais-->
+		<!-- ________________________________ -->
+		<div class="conteudo_central">
+			<script type="text/javascript">
+			eslogin();
+			</script>
+		</div>
 	</div>
 	<hr>
+	<!-- FIM DO ELEMENTO -->
+	<!-- ____________________________________________________________________________________ -->
 	<!-- INICIODO RODAPÉ -->
 	<footer class="rodape">
 		<div class="footerdiv">
