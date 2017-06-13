@@ -1,9 +1,8 @@
 function esdjs() {
   var $xy = document.querySelector('.conteudo_central'),
   t='',
-  t=t+'<div class="header_article">',
+  t=t+'<div class="conteudocentro">',
   t=t+'<h1>Mais Acessados</h1>',
-  t=t+'</div>',
   t=t+'<ul>',
   t=t+'<li><img src="imagens/dj.png" width="150px" height="150px" />',
   t=t+'<div id="poder_ass">',
@@ -65,6 +64,7 @@ function esdjs() {
   t=t+'<img src="imagens/scouterblack.png" width="30px" height="30px"/>',
   t=t+'</div>',
   t=t+'</li>',
-  t=t+'</ul>';
+  t=t+'</ul>',
+  t=t+'</div>'
   $xy.innerHTML=t;
 }

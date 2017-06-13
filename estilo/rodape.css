@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-family: "Gloria Hallelujah", cursive;
+	line-height: 1.1em;
+	text-decoration: none;
+	color: black;
+}
+footer {
+ height: auto;
+}
+footer.rodape {
+  width: 100%;
+  background-color: #f7b42e;
+}
+footer.rodape nav {
+  display: inline-flex;
+  align-items: stretch;
+
+  width: 33.3333%;
+  height: 100%;
+  padding: 15px;
+}
+footer.rodape nav h1,p {
+  text-align: center;
+  width: 100%;
+}
+footer.rodape nav ul li{
+  list-style: none;
+  align-items: center;
+}
+footer.rodape nav:last-of-type ul{
+  display: inline-flex;
+  list-style: none;
+  align-items: center;
+  border-color: white;
+}
+@media screen and (max-width: 650px) {
+
+footer.rodape h1{
+  display: none;
+}
+}

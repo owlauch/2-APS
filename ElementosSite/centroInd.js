@@ -1,11 +1,10 @@
 var escentroid= function() {
   var $xy=document.querySelector('.conteudo_central'),
-  t='<div class="header_article">',
-  t=t+'</div>',
+  t='<div class="conteudocentro">',
   t=t+'<ul>',
   t=t+'<li><img src="imagens/assador.jpg" width="150px" height="150px" />',
   t=t+'<div id="poder_ass">',
-  t=t+'<p>teste</p><p>Avaliação</p>',
+  t=t+'<p>Avaliação</p>',
   t=t+'<img src="imagens/scouter.png" width="30px" height="30px"/>',
   t=t+'<img src="imagens/scouter.png" width="30px" height="30px"/>',
   t=t+'<img src="imagens/scouterblack.png" width="30px" height="30px"/>',
@@ -63,6 +62,7 @@ var escentroid= function() {
   t=t+'<img src="imagens/scouterblack.png" width="30px" height="30px"/>',
   t=t+'</div>',
   t=t+'</li>',
-  t=t+'</ul>';
+  t=t+'</ul>',
+  t=t+'</div>'
   $xy.innerHTML=t;
 };

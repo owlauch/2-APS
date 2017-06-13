@@ -1,0 +1,157 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-family: "Gloria Hallelujah", cursive;
+	line-height: 1.1em;
+	text-decoration: none;
+	color: black;
+}
+
+body, html {
+	width: 100%;
+	height: auto;
+}
+#localizacao{
+	text-align: center;
+}
+header{
+	margin-bottom: 20px;
+}
+
+header, header > div.teste {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	box-shadow: 10px 10px 35px #f7b42e;
+}
+
+header  > div.teste a {
+	display: inline-flex;
+	width: 150px;
+}
+
+header  > div.teste a > img {
+	display: flex;
+	width: 100%;
+}
+
+header  > div.teste a:first-of-type > img {
+	position: relative;
+	width: 50%;
+	top: -15px;
+	z-index: 1005;
+}
+
+header  > div.teste a:nth-of-type(2) > img {
+	position: relative;
+	left: -50%;
+}
+
+header  > div.teste div.ger {
+	display: inline-flex;
+	width: calc(30% - (150px));
+}
+
+header  > div.teste div.ger ul{
+	display: inline-flex;
+	width: 100%;
+	list-style: none;
+}
+
+header  > div.teste div.ger ul li{
+	display: inline-flex;
+	width: 70%;
+	height: 40px;
+	background-color: #f7b42e;
+	border-radius: 15px;
+	padding: 8px;
+	font-size: 0.9em;
+}
+
+header  > div.teste div.ger ul li:hover{
+	cursor: pointer;
+	background-color: white;
+	border: 1px solid #f7b42e;
+}
+
+header  > div.teste div.icones {
+	display: inline-flex;
+	width: calc(70% - (150px));
+	padding: 30px;
+}
+
+header  > div.teste div.icones ul {
+	display: inline-flex;
+	width: 100%;
+	list-style: none;
+	justify-content: space-between;
+}
+
+header  > div.teste div.icones ul li {
+	display: inline-flex;
+	text-align: center;
+	width: 15%;
+	height: 40px;
+	background-color: #f7b42e;
+	border-radius: 15px;
+	padding: 8px;
+	font-size: 0.9em;
+}
+
+header  > div.teste div.icones ul li:hover {
+	cursor: pointer;
+	background-color: white;
+	border: 1px solid #f7b42e;
+}
+
+@media screen and (max-width: 900px) {
+
+header  > div.teste a {
+	width: 50%;
+}
+
+header  > div.teste a:first-of-type > img {
+	position: relative;
+	right: -25%;
+}
+
+header  > div.teste a:nth-of-type(2) > img {
+	left: -25%;
+}
+
+header  > div.teste div.ger {
+	width: 25%;
+}
+
+header  > div.teste div.icones {
+	width: 75%;
+}
+
+}
+
+@media screen and (max-width: 650px) {
+
+header  > div.teste div.ger {
+	width: 25%;
+	position: relative;
+	left: -7%;
+}
+
+header  > div.teste div.icones ul {
+	justify-content: flex-start;
+}
+
+header  > div.teste div.icones ul li {
+	width: calc(50% - (22.5px));
+	margin: 5px;
+}
+
+
+}
