@@ -11,17 +11,15 @@
 	text-decoration: none;
 	color: black;
 }
-footer {
- height: auto;
-}
+
 footer.rodape {
   width: 100%;
   background-color: #f7b42e;
+
 }
 footer.rodape nav {
   display: inline-flex;
   align-items: stretch;
-
   width: 33.3333%;
   height: 100%;
   padding: 15px;

@@ -1,0 +1,16 @@
+div.conteudo_central{
+  width: 100%;
+  height: auto;
+  display: flex;
+  box-shadow: 10px 10px 35px #f7b42e;
+  margin-bottom: 10px;
+}
+div.conteudo_central > div.tabelalogin{
+  width: auto;
+  text-align: center;
+  padding: 25px;
+  margin-top: 15px;
+  box-shadow: 10px 10px 35px #f7b42e;
+  border-radius: 15px;
+  margin-bottom: 95px;
+}

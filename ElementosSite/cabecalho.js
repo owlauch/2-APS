@@ -4,16 +4,16 @@ function esccabecalho(n) {
     t = '<a href="index.html">',
     t = t+ '<img class="hype" src="imagens/hypegif.gif">',
     t = t+ '</a>',
-    t = t+ '<a href="index.html">',
+    t = t+ '<a href="javascript:retiramenuesquerdo()">',
     t = t+ '<img class="jake"src="imagens/jake.gif" >',
     t = t+ '</a>',
     t = t+ '<div class="icones">',
-    t = t+'<ul><li onclick="escassadores()">Assadores</li>',
-    t = t+'<li onclick="esbarmans()">Barmans</li>',
-    t = t+'<li onclick="escxt()">Caixas Termicas</li>',
-    t = t+'<li onclick="esks()">Kits Chop</li>',
-    t = t+'<li onclick="esdjs()">Djs</li>',
-    t = t+'<li onclick="essons()">Sons</li></ul>',
+    t = t+'<ul><li onclick="anima(escassadores)">Assadores</li>',
+    t = t+'<li onclick="anima(esbarmans)">Barmans</li>',
+    t = t+'<li onclick="anima(escxt)">Caixas Termicas</li>',
+    t = t+'<li onclick="anima(esks)">Kits Chop</li>',
+    t = t+'<li onclick="anima(esdjs)">Djs</li>',
+    t = t+'<li onclick="anima(essons)">Sons</li></ul>',
     t = t+'</div><div class="ger"><ul><li><a href="ElementosSite/Cadastro.html">Login</a></li></ul></div>'
     $xy.innerHTML=t;
   };

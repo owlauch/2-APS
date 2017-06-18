@@ -1,6 +1,6 @@
 function escadastro() {
   var $xy = document.querySelector('.conteudo_central'),
-  t='<div id="xy">',
+  t='<div class="xy">',
   t=t+'<div id="tabelacad">',
   t=t+'<h1>Cadastro Cliente</h1>',
   t=t+'<form>',

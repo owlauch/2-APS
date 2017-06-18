@@ -3,14 +3,17 @@
 <head>
 	<title>HYPEWEB</title>
 	<meta charset="utf-8">
+	<link rel="icon" href="imagens/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="estilo\cabecalho.css">
 	<link rel="stylesheet" type="text/css" href="estilo\centro.css">
-		<link rel="stylesheet" type="text/css" href="estilo\rodape.css">
+	<link rel="stylesheet" type="text/css" href="estilo\rodape.css">
 	<style>	@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');</style>
 	<script src="ElementosSite\cabecalho.js" charset="utf-8"></script>
 	<script src="ElementosSite\rodape.js" charset="utf-8"></script>
 	<script src="ElementosSite\centroInd.js" charset="utf-8"></script>
 	<script src="ElementosSite\menuesq.js" charset="utf-8"></script>
+	<script src="Utilitarios\retirarMenuEsquerdo.js" charset="utf-8"></script>
+	<script src="Utilitarios\pickCadastro.js" charset="utf-8"></script>
 	<script src="produtos\assadores.js" charset="utf-8"></script>
 	<script src="produtos\Barmans.js" charset="utf-8"></script>
 	<script src="produtos\cxt.js" charset="utf-8"></script>
@@ -23,6 +26,7 @@
 	<script src="informações\infdj.js" charset="utf-8"></script>
 	<script src="informações\infson.js" charset="utf-8"></script>
 	<script src="informações\infks.js" charset="utf-8"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
 	<!-- INICIO DO CABEÇALHO DO SITE  -->
@@ -49,7 +53,7 @@
 	<!-- INICIO DO ASIDE MENU DE INFORMAÇÕES -->
 	<!-- _________________________________________________________________________ -->
 	<div class="centro">
-		<aside class="menu_esquerdo">
+		<aside class="menu_esquerdo" id="menuesquerdo">
 			<script type="text/javascript">
 			esmenues();
 			</script>

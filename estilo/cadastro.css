@@ -1,0 +1,16 @@
+div.xy{
+  display: flex;
+  width: 100%;
+  padding: 15px;
+
+}
+div.xy > div{
+  width: auto;
+  margin: 25px;
+  text-align: left;
+  padding: 15px;
+  margin-top: 15px;
+  box-shadow: 10px 10px 35px #f7b42e;
+  border-radius: 15px;
+  margin-bottom: 95px;
+}
