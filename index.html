@@ -4,14 +4,20 @@
 	<title>HYPEWEB</title>
 	<meta charset="utf-8">
 	<link rel="icon" href="imagens/favicon.ico">
+	<style>	@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="estilo\cabecalho.css">
 	<link rel="stylesheet" type="text/css" href="estilo\centro.css">
 	<link rel="stylesheet" type="text/css" href="estilo\rodape.css">
-	<style>	@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');</style>
 	<script src="ElementosSite\cabecalho.js" charset="utf-8"></script>
 	<script src="ElementosSite\rodape.js" charset="utf-8"></script>
 	<script src="ElementosSite\centroInd.js" charset="utf-8"></script>
 	<script src="ElementosSite\menuesq.js" charset="utf-8"></script>
+	<script src="ElementosSite\quemsomos.js" charset="utf-8"></script>
+	<script src="ElementosSite\objetivos.js" charset="utf-8"></script>
+	<script src="ElementosSite\TermosdeUso.js" charset="utf-8"></script>
+	<script src="ElementosSite\FaleCom.js" charset="utf-8"></script>
+	<script src="ElementosSite\Ajuda.js" charset="utf-8"></script>
 	<script src="Utilitarios\retirarMenuEsquerdo.js" charset="utf-8"></script>
 	<script src="Utilitarios\pickCadastro.js" charset="utf-8"></script>
 	<script src="produtos\assadores.js" charset="utf-8"></script>
@@ -26,9 +32,12 @@
 	<script src="informações\infdj.js" charset="utf-8"></script>
 	<script src="informações\infson.js" charset="utf-8"></script>
 	<script src="informações\infks.js" charset="utf-8"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
+	<script type="text/javascript">
+	var objetos = JSON.parse(localStorage.get("12345"));
+	alert(objetos.getNome());
+	</script>
 	<!-- INICIO DO CABEÇALHO DO SITE  -->
 	<!-- _________________________________________________________________________ -->
 	<header id="cabecalho">

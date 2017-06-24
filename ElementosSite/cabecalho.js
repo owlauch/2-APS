@@ -27,7 +27,7 @@ function esccabecalho(n) {
     t = t+ '</a>',
     t = t+'<div class="icones">',
     t = t+'<ul> <li onclick="escoElemento()"> Assadores</li>',
-    t = t+'<li onclick="escoElemento()"> Barmans</li>',
+    t = t+'<li onclick="escoElemento(esbarmans)"> Barmans</li>',
     t = t+'<li onclick="escoElemento()"> Caixas Termicas</li>',
     t = t+'<li onclick="escoElemento()"> Kits Chop</li>',
     t = t+'<li onclick="escoElemento()"> Djs</li>',

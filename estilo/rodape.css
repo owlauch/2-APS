@@ -24,6 +24,7 @@ footer.rodape nav {
   height: 100%;
   padding: 15px;
 }
+
 footer.rodape nav h1,p {
   text-align: center;
   width: 100%;
@@ -31,6 +32,7 @@ footer.rodape nav h1,p {
 footer.rodape nav ul li{
   list-style: none;
   align-items: center;
+  margin: 5px;
 }
 footer.rodape nav:last-of-type ul{
   display: inline-flex;
