@@ -1,5 +1,5 @@
-function esccabecalho(n) {
-  if(n==1){
+function esccabecalho(n,x) {
+  if(n==1&&x==null){
     var $xy = document.querySelector('.teste'),
     t = '<a href="index.html">',
     t = t+ '<img class="hype" src="imagens/hypegif.gif">',
@@ -14,10 +14,34 @@ function esccabecalho(n) {
     t = t+'<li onclick="anima(esks)">Kits Chop</li>',
     t = t+'<li onclick="anima(esdjs)">Djs</li>',
     t = t+'<li onclick="anima(essons)">Sons</li></ul>',
-    t = t+'</div><div class="ger"><ul><li><a href="ElementosSite/Cadastro.html">Login</a></li></ul></div>'
+    t = t+'</div><div class="ger"><ul><li>',
+    t = t+'<a href="ElementosSite/Cadastro.html">Login</a>',
+    t = t+'</li></ul></div>'
     $xy.innerHTML=t;
-  };
-  if(n==2){
+  }else if (x!=null) {
+    var $xy = document.querySelector('.teste'),
+    t = '<a href="index.html">',
+    t = t+ '<img class="hype" src="imagens/hypegif.gif">',
+    t = t+ '</a>',
+    t = t+ '<a href="javascript:retiramenuesquerdo()">',
+    t = t+ '<img class="jake"src="imagens/jake.gif" >',
+    t = t+ '</a>',
+    t = t+ '<div class="icones">',
+    t = t+'<ul><li onclick="anima(escassadores)">Assadores</li>',
+    t = t+'<li onclick="anima(esbarmans)">Barmans</li>',
+    t = t+'<li onclick="anima(escxt)">Caixas Termicas</li>',
+    t = t+'<li onclick="anima(esks)">Kits Chop</li>',
+    t = t+'<li onclick="anima(esdjs)">Djs</li>',
+    t = t+'<li onclick="anima(essons)">Sons</li></ul>',
+    t = t+'</div><div class="ger"><ul><li>',
+    t = t+'<a href="ElementosSite/Cadastro.html">',
+    t= t+ x,
+    t= t+'</a>',
+    t = t+'</li>',
+    t = t+'<li><a>Perfil</a></li></ul></div>'
+    $xy.innerHTML=t;
+  }
+  else{
     var $xy = document.querySelector('.teste'),
     t = '<a href="index.html">',
     t = t+'<img src="../imagens/hypegif.gif" width="75px" height="75px"/>',

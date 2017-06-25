@@ -35,15 +35,15 @@
 </head>
 <body>
 	<script type="text/javascript">
-	var objetos = JSON.parse(localStorage.get("12345"));
-	alert(objetos.getNome());
+	var objetos = (localStorage.getItem("Logado"));
 	</script>
 	<!-- INICIO DO CABEÇALHO DO SITE  -->
 	<!-- _________________________________________________________________________ -->
 	<header id="cabecalho">
 		<div class="teste">
 			<script type="text/javascript">
-			esccabecalho(1);
+			console.log(objetos);
+			esccabecalho(1,objetos);
 			</script>
 		</div>
 	</header>

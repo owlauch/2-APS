@@ -1,10 +1,12 @@
-function Cliente (nomep, sobrenomep,emailp,telefonep,cepp,senhap) {
+function Cliente (nomep, sobrenomep,emailp,telefonep,cepp,senhap,csenhap) {
   this.nome=nomep;
   this.sobrenome=sobrenomep;
   this.email=emailp;
   this.cep=cepp;
   this.telefone=telefonep;
   this.senha=senhap;
+  this.csenha=csenhap;
+  
     this.getNome=function() {
       return this.nome;
     };
@@ -14,31 +16,37 @@ function Cliente (nomep, sobrenomep,emailp,telefonep,cepp,senhap) {
     this.getEmail=function () {
       return this.email;
     };
-    this.getcep=function () {
+    this.getCep=function () {
       return this.cep;
     };
-    this.gettelefone=function () {
+    this.getTelefone=function () {
       return this.telefone;
     };
-    this.getsenha=function () {
+    this.getSenha=function () {
       return this.senha;
+    };
+    this.getCsenha=function () {
+      return this.csenha;
     };
     this.setNome=function(valor) {
       this.nome=valor;
     };
-    this.setsobrenome=function (valor) {
+    this.setSobrenome=function (valor) {
       this.sobrenome=valor;
     };
-    this.setemail=function (valor) {
+    this.setEmail=function (valor) {
       this.email=valor;
     };
-    this.setcep=function (valor) {
+    this.setCep=function (valor) {
       this.cep=valor;
     };
-    this.settelefone=function (valor) {
+    this.setTelefone=function (valor) {
       this.telefone=valor;
     };
-    this.setsenha=function (valor) {
+    this.setSenha=function (valor) {
       this.senha=valor;
+    };
+    this.setCsenha=function (valor) {
+      this.csenha=valor;
     };
 };
