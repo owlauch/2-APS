@@ -38,12 +38,10 @@ function esccabecalho(n,x) {
     t= t+ x,
     t= t+'</a>',
     t = t+'</li>',
-    t = t+'<li><a>Perfil</a></li></ul></div>'
-    $xy.innerHTML=t;
-  }
-  else{
-    var $xy = document.querySelector('.teste'),
-    t = '<a href="index.html">',
+    t = t+'<li onclick=localStorage.removeItem("Logado"),location.reload();>Sair</li></ul></div>'
+    $xy.innerHTML=t;  }
+    else{
+    var $xy = document.querySelector('.teste'),    t = '<a href="index.html">',
     t = t+'<img src="../imagens/hypegif.gif" width="75px" height="75px"/>',
     t = t+ '</a>',
     t = t+ '<a href="index.html">',
